@@ -34,6 +34,10 @@ const arr = removeArrayItem(['cat', 'dog', ['goose']], 'cat', 'dog')
 
 ## Links & Resources
 
+[Demo on Codesandbox.io](https://codesandbox.io/s/sy6hrw)
+
+[Examples on Codesandbox.io](https://codesandbox.io/examples/package/remove-item-from-array)
+
 [remove-item-from-array on javascriptutils.com](https://javascriptutils.com)
 
 [remove-item-from-array on GitHub](https://github.com/javascriptutils/remove-item-from-array)
