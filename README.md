@@ -17,9 +17,9 @@ The module exports a function; the first argument is the current array, the seco
 ### Examples
 
 ```javascript
-import removeArrayItem from "remove-item-from-array";
+import removeArrayItem from 'remove-item-from-array'
 
-const arr = removeArrayItem(["cat", "dog", ["cat", "goose"]], "cat");
+const arr = removeArrayItem(['cat', 'dog', ['cat', 'goose']], 'cat')
 
 // arr will be ['dog', ['goose']]
 ```
@@ -27,14 +27,14 @@ const arr = removeArrayItem(["cat", "dog", ["cat", "goose"]], "cat");
 You can also pass additional values as arguments to remove multiple items in one statement:
 
 ```javascript
-const arr = removeArrayItem(["cat", "dog", ["goose"]], "cat", "dog");
+const arr = removeArrayItem(['cat', 'dog', ['goose']], 'cat', 'dog')
 
 // arr will be [['goose']]
 ```
 
 ## Links & Resources
 
-[remove-item-from-array on javascriptutils.com](https://www.javascriptutils.com)
+[remove-item-from-array on javascriptutils.com](https://javascriptutils.com)
 
 [remove-item-from-array on GitHub](https://github.com/javascriptutils/remove-item-from-array)
 
