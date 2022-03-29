@@ -1,6 +1,6 @@
 {
   "name": "remove-item-from-array",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Removes items with a specified value from an array and returns the modified array.",
   "main": "src/index.js",
   "keywords": [
